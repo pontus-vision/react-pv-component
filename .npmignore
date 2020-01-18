@@ -1,12 +1,8 @@
-# Logs
 logs
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-node_modules/
-
 # Runtime data
 pids
 *.pid
@@ -20,10 +16,25 @@ lib-cov
 coverage
 
 # Compiled binary addons (https://nodejs.org/api/addons.html)
-dist/
-build/
 artifacts/
 work/
 ci/
 e2e-results/
 .idea
+src
+build-docker-image.sh
+Dockerfile
+rollup.config.js
+tsconfig.json
+webpack.config.base.js
+webpack.config.development.js
+webpack.config.example.js
+webpack.config.production.js
+.gitignore
+.npmignore
+.dockerignore
+example
+node_modules
+src
+.git
+.cache
